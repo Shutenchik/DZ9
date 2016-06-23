@@ -2,7 +2,6 @@
 (function( w ){
 
 	"use strict";
-
 	//exposed namespace
 	var respond = {};
 	w.respond = respond;
