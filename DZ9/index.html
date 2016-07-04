@@ -1,27 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">  
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Exam PAGE</title>
-	<link rel="stylesheet" href="css/style.css"> 	
-	<!--[if lt IE 10]>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!--[if lt IE 9]>
 		<link href="css/styleIE8_960.css" rel="stylesheet" >
 	<![endif]-->
-
 </head>
 <body>
-	<div class="bg1">
-		<div class="wrapper">
-	 		<div class="header">
-	 			<h1 class="header__logo">
+	<div class="wrapper"> 
+			<div class="  header responsive-width-box">
+				<div class="header-box">
+					<h1 class="header__logo">
 	 				pingbull
 	 				<span class="header__element">er</span>
 	 			</h1>
 	 			<div class="menu">
 	 				<ul class="menu menu-list">
-	 					<li class="menu__item "><a href="#" class="menu__link">home</a></li>
+	 					<li class=" menu__item menu__item--first-child">
+	 						<a href="#" class="menu__link menu__link--first-child">home</a>
+								<ul class="menu menu-list menu-list-submenu">
+									<li class="menu__item menu__item-submenu menu__link--first-child--submenu">
+										<a href="#" class="menu__link menu__link-submenu">about</a>
+									</li>
+									<li class="menu__item menu__item-submenu">
+										<a href="#" class="menu__link menu__link-submenu">blog</a>
+									</li>
+									<li class="menu__item menu__item-submenu">
+										<a href="#" class="menu__link menu__link-submenu">products</a>
+									</li>
+									<li class="menu__item menu__item-submenu">
+										<a href="#" class="menu__link menu__link-submenu">Lorem ipsum</a>
+									</li>
+									<li class="menu__item menu__item-submenu">
+										<a href="#" class="menu__link menu__link-submenu">dolor sit amet</a>
+									</li>
+								</ul>
+	 						</li>
 	 					<li class="menu__item "><a href="#" class="menu__link">about</a></li>
 	 					<li class="menu__item "><a href="#" class="menu__link">blog</a></li>
 	 					<li class="menu__item "><a href="#" class="menu__link">products</a></li>
@@ -29,12 +47,12 @@
 	 					<li class="menu__item "><a href="#" class="menu__link">dolor sit amet</a></li>
 	 				</ul>
 	 			</div>
+				</div>
+	 			
 	 		</div>
-	 	</div>
-	 	<div class="bg2">
-	 		<div class="wrapper">
 	 			<div class="main">
-	 				<div class="  main-text">
+	 			<div class="responsive-width-box">
+	 				<div class="  main-text ">
 	 					<h2 class="main-text__header">
 	 							Lorem ipsum dolor
 	 					</h2>
@@ -48,65 +66,71 @@
 	 				<div class="img-phone ">
 	 					<img class="main-phone__img" src="img/phone.png" alt="Phone" >
 	 				</div>
+	 				</div>
 	 			</div>
-	 		</div>
-	 	</div>
+	 		
+	 	
 	 			<div class="slaider">
-	 				<div class="wrapper">
+	 				
 	 						<ul class="slaider--list">
 	 						<li><a href="#" class="slaider--circle"></a></li>
 	 						<li><a href="#" class="slaider--circle"></a></li>
-	 						<li><a href="#" class="slaider--circle"></a></li>
+	 						<li><a href="#" class="slaider--circle slaider--circle-black"></a></li>
 	 						<li><a href="#" class="slaider--circle"></a></li>
 	 					</ul>
-	 				</div>
 	 		</div>
-	 </div>
-	 <div class="bg3">
-	 	<div class="wrapper">
-	 		<div class="sprite">
-	 			<ul class="sprite__list">
-	 				<li><a href="#" class="sprite__link sprite__settings"></a></li>
-	 				<li><a href="#" class="sprite__link sprite__speach"></a></li>
-	 				<li><a href="#" class="sprite__link sprite__note"></a></li>
-	 			</ul>
-	 		</div>
-
+	 
+	 <div class=" section-with-gradient">
+	 	<div class="responsive-width-box ">
 	 		<div class="about-company-box shadow-box">
+	 			
 	 			<div class="about-company about-company__left">
-	 				<h2 class="about-company__header">About our company</h2>
-	 				<p class="about-company__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste corporis maiores fuga <!-- provident? Numquam quos tempore --> <!-- accusantium dignissimos architecto maiores vitae. --></p>
+	 				<div class="header-icon">
+	 					<a class="sprite__link sprite__settings"></a>
+	 					<h2 class="about-company__header">About our company</h2>
+	 				</div> 
+	 				<p class="about-company__paragraph">Lorem ipsum dolor sit amet, consect&shy;etur adipisi&shy;cing elit. Iste corporis maio&shy;res fuga  <!-- provident? Numquam quos tempore --><!-- accusantium dignissimos architecto maiores vitae. --></p>
 	 				<a href="#" class="about-company__link">read more</a>
 	 			</div>
+	 			
 	 			<div class="about-company">
-	 				<h2 class="about-company__header">About our company</h2>
-	 				<p class="about-company__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste corporis maiores fuga <!-- provident? Numquam quos tempore --> <!-- accusantium dignissimos architecto maiores vitae. --></p>
+	 			<div class="header-icon">
+	 					<a  class="sprite__link sprite__speach"></a>
+	 					<h2 class="about-company__header">About our company</h2>
+	 				</div>
+	 				<p class="about-company__paragraph">Lorem ipsum dolor sit amet, consect&shy;etur adipisi&shy;cing elit. Iste corporis maio&shy;res fuga <!-- provident? Numquam quos tempore --> <!-- accusantium dignissimos architecto maiores vitae. --></p>
 	 				<a href="#" class="about-company__link">read more</a>
 	 			</div> 
+	 			
 	 			<div class="about-company about-company__right">
-	 				<h2 class="about-company__header">About our company</h2>
-	 				<p class="about-company__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste 	corporis maiores fuga <!-- provident? Numquam quos tempore --> <!-- accusantium dignissimos architecto maiores vitae. --></p>
+	 				<div class="header-icon">
+	 					<a class="sprite__link sprite__note"></a>
+	 					<h2 class="about-company__header">About our company</h2>
+	 				</div>
+	 				<p class="about-company__paragraph">Lorem ipsum dolor sit amet, consect&shy;etur adipisi&shy;cing elit. Iste 	corporis maio&shy;res fuga <!-- provident? Numquam quos tempore --> <!-- accusantium dignissimos architecto maiores vitae. --></p>
 	 				<a href="#" class="about-company__link">read more</a>
 	 			</div>
 	 		</div>
 
 	 	</div>
 	 </div>
-	 <div class="bg4">
-	 	<div class="wrapper">
-	 	<div class="starts-here-box">
-	 		<div class="starts-here"> 
+	 <div class=" section-whith-articles">
+	 	<div class="responsive-width-box">
+	 	<div class=" starts-here-box ">
+	 		<div class="starts-here">
+	 		<div class="header-icon header-icon__articles">	
 	 			<img src="img/face.png" alt="face" class="starts-here__img">
 	 			<h2 class="starts-here__header">
 	 				pingbuller 
 	 				<span> starts here</span>
 	 			</h2>
-	 			<p class="starts-here__paragraph">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque neque rem illum dolorum necessitatibus ad tenetur, eius quod, voluptate tempora "</p>
+	 		</div> 
+	 			<p class="starts-here__paragraph">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque neque rem illum dolorum necessitatibus ad tenetur, eius quod, voluptate  "</p>
 	 		</div>
 	 		<div class="slaider slaider--starts-here">
 	 				<ul class="slaider--list slaider-list--starts-here">
 	 					<li><a href="#" class="slaider--circle slaider--circle--starts-here"></a></li>
-	 					<li><a href="#" class="slaider--circle slaider--circle--starts-here"></a></li>
+	 					<li><a href="#" class="slaider--circle slaider--circle--starts-here slaider--circle-black"></a></li>
 	 					<li><a href="#" class="slaider--circle slaider--circle--starts-here"></a></li>
 	 					<li><a href="#" class="slaider--circle slaider--circle--starts-here"></a></li>
 	 				</ul>
@@ -135,16 +159,16 @@
 	 		</div>
 	 	</div>
 	 </div>
-	 <div class="bg5">
-	 	<div class="wrapper">
-	 		<div class="logos">
+	 <div class=" section-with-logos">
+	 	<div class="responsive-width-box">
+	 		<div class=" logos ">
 	 			<img src="img/logos.png" alt="Logos" class="logos__img">
 	 		</div>
 	 	</div>
 	 </div>
-	 <div class="bg6">
-	 	<div class="wrapper">
-	 		<div class="about-company-box about-company-box--content">
+	 <div class=" section-content">
+	 	<div class="responsive-width-box">
+	 		<div class=" about-company-box about-company-box--content ">
 	 			<div class="about-company__left about-company  about-company--content">
 	 				<h2 class=" header__logo header__logo--content">	
 	 					pingbull
@@ -153,22 +177,22 @@
 	 				<p class="content-copyright">
 	 					Copyright 2013, Pungbull AS
 	 				</p>
-	 				<p class="about-company__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem earum quo optio quibusdam, odit, tempore debitis cum, suscipit inventore non veniam iusto? <!-- Magnam dolore molestiae optio vel, atque at iure enim nostrum culpa magni id iusto. --></p>
+	 				<p class="about-company__paragraph about-company__paragraph--content">Lorem ipsum dolor sit amet, consectetur adi&shy;pisicing elit. Volupt&shy;atem earum quo optio quibu&shy;sdam, odit, tempo&shy;re debitis cum, suscipit inventore non veniam iusto? <!-- Magnam dolore molestiae optio vel, atque at iure enim nostrum culpa magni id iusto. --></p>
 	 			</div> 
 	 			<div class="about-company about-company--content">
 	 				<h2 class="about-company__header about-company__header--content">recent coments</h2>
-	 				<p class="about-company__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem earum quo optio quibusdam, odit, tempore debitis cum, suscipit inventore non veniam iusto? <!-- Magnam dolore molestiae optio vel, atque at iure enim nostrum culpa magni id iusto. --></p>
+	 				<p class="about-company__paragraph about-company__paragraph--content">Lorem ipsum dolor sit amet, consectetur adi&shy;pisicing elit. Volupt&shy;atem earum quo optio quibu&shy;sdam, odit, tempo&shy;re debitis cum, suscipit inventore non veniam iusto? <!-- Magnam dolore molestiae optio vel, atque at iure enim nostrum culpa magni id iusto. --></p>
 	 			</div> 
-	 			<div class="about-company about-company__right about-company--content">
+	 			<div class="about-company about-company__right about-company--content about-company--content__right">
 	 				<h2 class="about-company__header about-company__header--content">news categories</h2>
-	 				<p class="about-company__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem earum quo optio quibusdam, odit, tempore debitis cum, suscipit inventore non veniam iusto? <!-- Magnam dolore molestiae optio vel, atque at iure enim nostrum culpa magni id iusto. --></p>
+	 				<p class="about-company__paragraph about-company__paragraph--content">Lorem ipsum dolor sit amet, consectetur adi&shy;pisicing elit. Volupt&shy;atem earum quo optio quibu&shy;sdam, odit, tempo&shy;re debitis cum, suscipit inventore non veniam iusto? <!-- Magnam dolore molestiae optio vel, atque at iure enim nostrum culpa magni id iusto. --></p>
 	 			</div>
 	 		</div>
 	 	</div>
 	 </div>
-	 <div class="bg7">
-	 	<div class="wrapper">
-	 	<div class="footer">
+	 <div class=" section-with-footer">
+	 	<div class="responsive-width-box">
+	 	<div class=" footer ">
 	 		<div class="menu menu--footer">
 	 			<ul class="menu menu-list menu-list--footer">
 	 				<li class="menu__item menu__item--footer">
@@ -200,5 +224,6 @@
 	 	</div>
 	 	</div>
 	 </div>
+ </div>
 </body>
 </html>
