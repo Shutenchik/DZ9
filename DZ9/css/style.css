@@ -1572,7 +1572,7 @@ body {
 	}
 
 	.recent-updates-box {
-		width: 47%;
+		width: 48%;
 		height: auto;
 		float: right;
 		display: inline-block;
@@ -1819,6 +1819,7 @@ body {
 }
 
 .section-with-gradient {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#724f81,endColorstr=#33263a);
 	background: -moz-linear-gradient(#724f81, #33263a);
 	background: linear-gradient(#724f81, #33263a);
 	border-top: 1px solid black;

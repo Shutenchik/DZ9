@@ -79,7 +79,7 @@
 
 	.menu__item {
 		display: inline-block;
-		padding: 11px 25px;
+		padding: 11px 23px;
 	}
 	
 	.menu__item:hover .menu__link {
@@ -100,8 +100,8 @@
  	.main-text {
 		position: absolute;
 		width: 53%;
-		top: 50%;
-		transform: translateY(-48%);
+		top: 15%;
+		/*transform: translateY(-48%);*/
 		left: 1%;
 		filter: progid:DXImageTransform.Microsoft.dropshadow(offX=0, offY=1, color=#000000);
 		filter: progid:DXImageTransform.Microsoft.shadow(direction=180, color=#000000, strength=2);
@@ -204,10 +204,10 @@
 	}
 
 	.about-company-box {
-		top: 50%;
+		top: 20%;
 		height: 200px;
 		position: absolute;
-		transform: translateY(-50%);
+		/*transform: translateY(-50%);*/
 		right: 2%;
 	}
 
@@ -372,9 +372,9 @@
 	.about-company-box--content {
 		height: 250px;
 		position: absolute;	
-		top: 50%;
+		/*top: 50%;*/
 		left: 1%;
-		transform: translateY(-44%);	
+		/*transform: translateY(-44%);*/	
 	}
 
 	.header__logo--content {
